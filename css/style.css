@@ -1,0 +1,175 @@
+body{
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin: 0px;
+	line-height: 24px;
+	color: white;
+}
+.navbar{
+	text-align: center;
+	width:;
+	background: red;
+	opacity: 0.5px;
+	margin-top: 50px;
+	margin-bottom: 1px;
+
+}
+.navbar ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	position: relative;
+}
+.navbar ul li a {
+	display: block;
+	padding: 25px;
+	color: white;
+	text-decoration: none;
+	width: 150px;
+}
+.navbar ul:after {
+	content: "";clear: both;
+	display: block;
+}
+
+
+.a2{
+	text-decoration-color: red;
+
+}
+
+.navbar ul li {
+	float: left;
+	list-style: none;
+}
+.navbar ul ul {
+	display: none;
+}
+.navbar ul li:hover > ul{
+	display: block;
+}
+.navbar ul li:hover a {
+	background: pink;
+	transition: 0.9s;
+	border-radius: 30px;
+}
+.navbar ul li:hover a{
+	color: white;
+}
+.navbar ul ul {
+	background: black;
+	padding: 0px;
+	margin: 0px;
+	position: absolute; top: 100px;
+}
+.navbar ul ul li {
+	float: none;
+	position: relative;
+}
+.navbar ul ul li a{
+	padding: 25px;
+	color: white;
+	width: 300px;
+	text-align: left;
+}
+.navbar ul ul li a:hover {
+	background: lightblue;
+	color: black;
+	transition: 0.9s;
+}
+img{
+	height: 75px;
+	width: 200px;
+}
+h1{
+	text-decoration: underline;
+}
+.impaire{
+	background-color: #ff7f50;
+}
+.paire{
+	background-color:#deb887; 
+	color: black;
+}
+input{
+	height: 50px;
+	background-color: white;
+	color: black;
+	border-color: #ff7f50;
+	border:4px black;
+	width: 250px;
+	border-color: red;
+	border-radius:10px;
+	border-size:20px;
+}
+.x{
+	color: pink;
+}
+marquee{
+	text-align: center;
+	color: pink
+	;
+}
+button{
+	background-color: blue;
+	border-radius: 20px;
+}
+textarea{
+	color: black;
+	background-color: pink;
+	border-radius: 10px;
+	border-color: red;
+}
+.l{
+	width: 250px;
+	background-color: #f0f8ff;
+	border-radius: 40px;
+	border-color: white;
+	text-align: ;
+}
+.m{
+	width: 100px;
+	text-align: right;
+	background-color: blue;
+	border-radius: 15px;
+}
+
+
+
+.banner{
+	width: 1200px;
+	height: 300px;
+	margin: auto;
+		
+}
+
+.block{
+	background-color: #4CAC9D;
+	height: 900px;
+}
+
+#footer_bottom
+{
+padding-top: 10px;
+font-size: 10px;
+padding-left: 60px;
+}
+
+#footer_bottom a{
+	font-weight: normal;
+}
+
+mark{
+	background-color: yellow;
+}
+
+input{
+	text-align: left;
+	position: center;
+	
+}
+
+form{
+	margin-left: 30px;
+}
